@@ -1,4 +1,7 @@
 <!--index.wxml-->
-<view class="container">
-    <text>{{content}}</text>
+
+<view class='container' style='background-image:url({{pBackgroundImg}})'>
+
+  <text class='content' bindtap='copyTBL'>『 {{content}} 』</text>
+  <text class='from'>-「 {{from}} 」</text>
 </view>

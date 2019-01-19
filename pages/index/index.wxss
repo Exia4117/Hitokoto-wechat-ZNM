@@ -1,1 +1,28 @@
 /**index.wxss**/
+
+.content {
+  position: relative;
+  z-index: 1;
+  margin: 40rpx;
+  padding: 10rpx;
+  font-size: 2rem;
+  text-align: left;
+  line-height: 50px;
+  word-break: normal;
+  font-family: '微软雅黑';
+  color: black;
+  border-radius: 3px 3px 3px 3px;
+  backdrop-filter: blur(3px);
+}
+
+.from {
+  position: relative;
+  margin: 0rpx 0 40rpx 400rpx;
+  padding: 10rpx;
+  font-size: 1.2rem;
+  text-align: right;
+  line-height: 50px;
+  word-break: normal;
+  color: black;
+  backdrop-filter: blur(10px);
+}
