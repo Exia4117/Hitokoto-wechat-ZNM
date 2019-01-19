@@ -1,6 +1,6 @@
 <!--index.wxml-->
 
-<view class='container' style='background-image:url({{pBackgroundImg}})'>
+<view class='container' style='background-image:url({{pBackgroundImg}})' bindlongtap='copyPicTBL'>
 
   <text class='content' bindtap='copyTBL'>『 {{content}} 』</text>
   <text class='from'>-「 {{from}} 」</text>

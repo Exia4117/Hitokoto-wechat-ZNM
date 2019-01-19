@@ -73,8 +73,21 @@ Page({
   copyTBL: function() {
     var that = this;
     wx.setClipboardData({
-      data: that.data.content+'',
+      data: that.data.content,
       success: function() {
+        wx.showModal({
+          title: '提示',
+          content: '复制成功',
+        })
+      }
+    })
+  },
+
+  copyPicTBL: function () {
+    var that = this;
+    wx.setClipboardData({
+      data: that.data.pBackgroundImg,
+      success: function () {
         wx.showModal({
           title: '提示',
           content: '复制成功',
